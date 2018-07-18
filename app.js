@@ -24,4 +24,4 @@ app.get('/todos/:id', (req, res) =>{
     res.json(todo)
 })
 
-app.listen(1488, () => console.log('server is working'));
+app.listen(8080, () => console.log('server is working'));
